@@ -1,0 +1,20 @@
+body{
+  margin: 0;
+  background-color: powderblue;
+}
+h1{
+  margin-top: 0;
+  color: #C98474;
+  font-size: 50px;
+}
+div{
+  background-color: #D0B8A8;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 15%;
+
+}
