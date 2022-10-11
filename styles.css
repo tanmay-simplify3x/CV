@@ -8,8 +8,9 @@ h1{
   font-size: 50px;
 }
 #title{
- background-color: #ff4c68;
-  color: #fff;
+ background-color: #powderblue;
+  color: #C98474;
+  text-align: center;
 }
 .container-fluid{
   padding: 3% 15%
@@ -18,9 +19,6 @@ h2{
   color: #C98474;
   font-size: 20px;
 }
-title{
-  background-color: #D0B8A8;
-}
 hr {
   border-style: none;
   border-top-style: dotted;
@@ -28,4 +26,32 @@ hr {
   border-width: 5px;
   width: 15%;
 
+}
+h3 {
+  font-family: "Montserrat-Bold";
+  color: #C98474;
+}
+#description {
+  text-align: center;
+}
+#skill {
+  background-color: #D0B8A8;
+  padding: 7% 15%;
+}
+.skill-box {
+  text-align: center;
+}
+#cta {
+  text-align: center;
+  background-color: #D0B8A8;
+  padding: 7% 15%;
+}
+.heading-cta {
+  text-align: center;
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.fa-brands{
+  margin: 20px 10px;
 }
