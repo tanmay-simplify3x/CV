@@ -41,10 +41,16 @@ h3 {
 .skill-box {
   text-align: center;
 }
+#Education {
+  background-color: #D0B8A8;
+}
 #cta {
   text-align: center;
   background-color: #D0B8A8;
   padding: 7% 15%;
+}
+.navbar-toggler {
+  border-color: #fff;
 }
 .heading-cta {
   text-align: center;
@@ -54,4 +60,7 @@ h3 {
 }
 .fa-brands{
   margin: 20px 10px;
+}
+.card-body{
+  text-align: center;
 }
