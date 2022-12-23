@@ -7,6 +7,13 @@ h1{
   color: #C98474;
   font-size: 50px;
 }
+.IMG{
+  height: 200px;
+  width: 200px;
+}
+.game_img{
+  text-align: center;  
+}
 #title{
  background-color: #powderblue;
   color: #C98474;
@@ -36,7 +43,7 @@ h3 {
 }
 #skill {
   background-color: #D0B8A8;
-  padding: 7% 10%;
+  padding: 5% 7%;
 }
 .skill-box {
   text-align: center;
@@ -69,4 +76,16 @@ h3 {
 }
 .card-body{
   text-align: center;
+}
+.credits a {
+  color: #C98474;
+  transition: 0.3s;
+}
+
+.credits a:hover {
+  color: #fff;
+}
+.form-control {
+  border-color: #C98474;
+  background-color: powderblue;
 }
