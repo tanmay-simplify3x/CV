@@ -1,3 +1,6 @@
+.tanmay{
+  text-shadow: 2px 2px 5px Black;
+}
 body{
   margin: 0;
   background-color: powderblue;
@@ -12,7 +15,7 @@ h1{
   width: 200px;
 }
 .game_img{
-  text-align: center;  
+  text-align: center;
 }
 #title{
  background-color: #powderblue;
