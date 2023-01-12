@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico">
 </head>
-  <body>
+  <body onload="myFunction()">
+    <div id = "loding"></div>
+
     <nav class="navbar navbar-expand-lg bg-dark">
       <a class="navbar-brand" href="#">I'm Tanmay</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,14 +64,12 @@
 </div>
     </section>
   </body>
-<hr>
 <style>
   h2{
     text-align: center;
   }
 </style>
 <h2> I would love it if you would review my resume and consider me for an interview.</h2>
-<hr>
 <style>
   h3{
     text-align: center;
@@ -93,7 +93,6 @@
     <strong>7.71</strong>(CGPA)
   </li>
 </section>
-<hr>
 <section id="work">
   <h3>Work Experience</h3>
   <table class="work" border="1">
@@ -111,7 +110,6 @@
     </tr>
   </table>
 </section>
-<hr>
 <h3>Skills</h3>
 <section id="skill">
   <div class="row">
@@ -159,7 +157,6 @@
     </div>
   </div>
 </section>
-<hr>
 <h3>My Hoobbies</h3>
 <section id="hobbie">
 <div class="row">
@@ -185,22 +182,21 @@
       </div>
     </div>
   </div>
-  <div class=""col-lg-4 col-md-6"">
+  <div class="col-lg-4 col-md-6">
     <div class="card">
       <div class="card-header">
         <img class = "imgcard" src="chess.png" alt="card-img">
         <h3>Playing Chess</h3>
       </div>
       <div class="card-body">
-        I play chess in my free time, on CHESS>COM i have 760 rating.
+        I play chess in my free time, on CHESS.COM i have 760 rating.
       </div>
     </div>
   </div>
 </div>
 </section>
-<hr>
 <section id="cta">
-  <h3 class="heading-cta">You can Find me on these</h3>
+  <h3 id="you" class="heading-cta">You can Find me on these</h3>
   <a href="https://github.com/SinghTanmay024"><i class="fa-brands fa-github"></i></a>
   <a href="https://www.linkedin.com/in/tanmay-singh-001a16207/"><i class="fa-brands fa-linkedin-in"></i></a>
   <a href="https://twitter.com/TanmayS73654204"><i class="fa-brands fa-twitter"></i></a>
@@ -216,6 +212,12 @@
     Designed by <a href="#">Tanmay Singh</a>
   </div>
 </section>
+<script>
+var preloader = document.getElementById('loding');
+function myFunction(){
+  preloader.style.display = 'none';
+}
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script src="index.js" charset="utf-8"></script>
   </body>
